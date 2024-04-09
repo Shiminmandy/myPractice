@@ -1,25 +1,25 @@
 .index-page{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     
     .header-box{
         
         //max-width: 1600px;
         //margin: 0 auto; /* 新增加的样式，使其在更大屏幕上居中 */
-        width: 100%;
+        width: 100vw;
         height: 86px;
-        margin-top: 40px;
+        margin-top: 2.5rem;
         background-color: #FAFAFA;
         position: relative;
         .container{
             //max-width: 1600px; /* 限制最大宽度但不影响背景 */
             //margin: 0 auto; /* 内容居中 */
-            width: 100%;
+            width: 100vw;
             height: 80px;
             display: flex;
             justify-content: start; /* 确保子元素从左侧开始排列 */
             position: relative;
-            padding-left: 48px; /* 或根据需要调整，为main-pic提供足够的空间 */
+            padding-left: 3rem; /* 或根据需要调整，为main-pic提供足够的空间 */
             .main-pic{
                 width: 255px; /* 或根据实际图片大小调整 */
                 height: 58.26px; /* 或根据实际图片大小调整 */
@@ -42,8 +42,8 @@
                 .services{
                     /* Frame 3 */
     
-                    width: 90px;
-                    height: 25px;
+                    width: 5.6rem;
+                    height: 1.6rem;
                     border-style: hidden;
                     background-color: #FAFAFA;
     
@@ -79,8 +79,8 @@
                 .industries{
                     /* Frame 4 */
     
-                    width: 90px;
-                    height: 25px;
+                    width: 5.6rem;
+                    height: 1.6rem;
     
     
                     /* Inside auto layout */
@@ -92,8 +92,8 @@
                 .company{
                     /* Frame 4 */
     
-                    width: 90px;
-                    height: 25px;
+                    width: 5.6rem;
+                    height: 1.6rem;
     
     
                     /* Inside auto layout */
@@ -108,10 +108,10 @@
                 /* Frame 13 */
     
                 position: absolute;
-                width: 206px;
-                height: 60px;
-                left: 1355px;
-                top: 13px;
+                width: 34rem;
+                height: 3.75rem;
+                left: 75rem;
+                top: 0.8rem;
                 // border-style: solid;
                 // border-width: 4px;
                 // border-color: #A4E4FD;
@@ -120,9 +120,9 @@
                     /* Frame 12 */
     
                     position: absolute;
-                    width: 158px;
-                    height: 60px;
-                    left: 39px;
+                    width: 9.8rem;
+                    height: 3.75rem;
+                    left: 2.4rem;
                     top: calc(50% - 60px/2);
     
     
