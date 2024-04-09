@@ -3,42 +3,40 @@
     height: 100%;
     
     .header-box{
-        width:100%;
-        height:86px;
+        
+        max-width: 1600px;
+        //margin: 0 auto; /* 新增加的样式，使其在更大屏幕上居中 */
+        width: 100%;
+        height: 86px;
         margin-top: 40px;
         background-color: #FAFAFA;
-        //position: relative;
-
+        position: relative;
         .container{
-            width:100%;
-            height:80px;
+            max-width: 1600px; /* 限制最大宽度但不影响背景 */
+            //margin: 0 auto; /* 内容居中 */
+            height: 80px;
             display: flex;
-            justify-content: space-between;
+            justify-content: start; /* 确保子元素从左侧开始排列 */
             position: relative;
+            padding-left: 48px; /* 或根据需要调整，为main-pic提供足够的空间 */
             .main-pic{
-                width:255px;
-                height:58.26px;
-                padding: 14px 0px 0px 48px;
-                display: flex;
+                width: 255px; /* 或根据实际图片大小调整 */
+                height: 58.26px; /* 或根据实际图片大小调整 */
+                padding-top: 14px; /* 调整以垂直居中图片 */
+                display: flex; /* 如果需要的话 */
             }
            
             .user{
     
-                /* Bar */
-        
-                /* Auto layout */
                 display: flex;
                 flex-direction: row;
                 align-items: flex-start;
-                padding: 0px;
-                gap: 18px;
-        
+                gap: 18px; /* 调整间距可能需要 */
                 position: absolute;
-                width: 306px;
-                height: 17px;
-                left: 1055px;
+                left: 50%; /* 改为相对于父容器居中 */
+                transform: translateX(-50%); /* 新增，确保元素居中 */
+                width: auto; /* 改为auto以适应内容宽度 */
                 top: calc(50% - 17px/2 - 0.5px);
-                //background-color: red;
             
                 .services{
                     /* Frame 3 */
