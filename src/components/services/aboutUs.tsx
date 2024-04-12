@@ -29,7 +29,7 @@ const AboutUs: React.ForwardRefRenderFunction<HTMLDivElement, textType> = (textT
         </div>
         <div className='pic'>
           
-            <img className="picimg" src={require('../../images/aboutus.webp')}/>
+            <img className="picimg" src={require('../../images/aboutus.png')}/>
          
           
         </div>
