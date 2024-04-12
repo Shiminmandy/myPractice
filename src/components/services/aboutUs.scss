@@ -1,0 +1,48 @@
+.about-box{
+    width: 100vw;
+    height: 45rem;
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    .text{
+        width: 50vw;
+        height: 45rem;
+        background-color: whitesmoke;
+        
+        .aboutus{
+            padding: 20px 0 0 210px;
+            margin-left: 30px;
+            color: green;
+        }
+        .line{
+            font-size: 30px;
+            width: 300px;
+            font-weight: bold;
+            padding: 60px 0 0 235px;
+        }
+        .textcontent{
+            
+            padding: 30px 0 0 235px;
+            width: 450px;
+            height: 300px;
+            
+            .paragraph{
+                font-size: 20px;
+                line-height: 28px;
+            }
+        }
+        .getintouch{
+            padding: 10px 0 0 235px;
+        }
+    }
+    .pic{
+        width: 50vw;
+        height: 45rem;
+        background-color: whitesmoke;
+        .picimg{
+            width: 28rem;
+            height: 33rem;
+            padding: 50px 0 0 0;
+        }
+    }
+}
