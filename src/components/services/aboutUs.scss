@@ -3,28 +3,28 @@
     height: 45rem;
     display: flex;
     position: relative;
-    margin-top: 50px;
+    margin-top: 3.13rem; //50px
     .text{
         width: 50vw;
         height: 45rem;
         background-color: whitesmoke;
         
         .aboutus{
-            padding: 20px 0 0 210px;
-            margin-left: 30px;
+            padding: 1.25rem 0 0 13.13rem;  //20px 0 0 210px
+            margin-left: 1.875rem; //30rem
             color: green;
         }
         .line{
-            font-size: 30px;
-            width: 300px;
+            font-size: 1.875rem;
+            width: 18.75rem;
             font-weight: bold;
-            padding: 60px 0 0 235px;
+            padding: 3.75rem 0 0 14.68rem;  //60px 0 0 235px
         }
         .textcontent{
             
-            padding: 30px 0 0 235px;
-            width: 450px;
-            height: 300px;
+            padding: 1.875rem 0 0 14.68rem;  //30px 0 0 235px
+            width: 28.125rem;  //450px
+            height: 18.75rem;
             
             .paragraph{
                 font-size: 20px;
@@ -32,7 +32,7 @@
             }
         }
         .getintouch{
-            padding: 10px 0 0 235px;
+            padding: 0.625rem 0 0 14.68rem;   //10px 0 0 235px
         }
     }
     .pic{
@@ -42,7 +42,7 @@
         .picimg{
             width: 28rem;
             height: 33rem;
-            padding: 50px 0 0 0;
+            padding: 3.125rem 0 0 0; //50px
         }
     }
 }

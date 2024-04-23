@@ -2,25 +2,25 @@
     height: 50rem;
     width: 100vw;
     //padding: 30px 0 0 0;
-    margin-top: 50px;
+    margin-top: 3.125rem;    //50px
     background-color: whitesmoke;
     .contactus{
-        padding: 20px 0 0 230px;
+        padding: 1.25rem 0 0 14.375rem;     //20px 0 0 230px
         color: green;;
     }
     .contacttitle{
-        padding: 40px 0 0 230px;
+        padding: 2.5rem 0 0 14.375rem;      //40px 0 0 230px
         font-size: 30px;
         font-weight: bold;
-        width: 300px;
+        width: 18.75rem;  //300px
 
     }
     .contacttext{
-        width: 300px;
-        padding: 20px 0 0 230px;
+        width: 18.75rem;
+        padding: 1.25rem 0 0 14.375rem;   //20px 0 0 230px;
         
     }
     .login{
-        padding: 20px 0 0 28px;
+        padding: 1.25rem 0 0 1.75rem;        //20px 0 0 28px
     }
 }

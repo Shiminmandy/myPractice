@@ -22,9 +22,9 @@
             position: relative;
             margin-left: 2rem; /* 或根据需要调整，为main-pic提供足够的空间 */
             .main-pic{
-                width: 300px; /* 或根据实际图片大小调整 */
-                height: 58.26px; /* 或根据实际图片大小调整 */
-                margin-top: 14px; /* 调整以垂直居中图片 */
+                width: 18.75rem; /* 或根据实际图片大小调整 */  //300px
+                height: 3.641rem; /* 或根据实际图片大小调整 */   //58.26px
+                margin-top: 0.875; /* 调整以垂直居中图片 */   //14px
                 display: flex; /* 如果需要的话 */
             }
            
@@ -33,7 +33,7 @@
                 display: flex;
                 flex-direction: row;
                 align-items: flex-start;
-                gap: 18px; /* 调整间距可能需要 */
+                gap: 1.125rem; /* 调整间距可能需要 */  //18px
                 //position: absolute;
                 left: 30rem; /* 改为相对于父容器居中 */
                 //transform: translateX(-50%); /* 新增，确保元素居中 */
@@ -119,9 +119,9 @@
         position: relative;
         z-index: 0;
         .slogan{
-            width: 500px;
-            height: 150px;
-            padding: 350px 0 0 245px;
+            width: 31.25rem;     //500px
+            height: 9.375rem;    //150px
+            padding: 21.875rem 0 0 15.31rem;   //350px 0 0 245px
 
             p{
                 font-size: 50px;

@@ -5,27 +5,27 @@
         
         .small{
             width: 100vw;
-            height: 180px;
-            margin-top: 20px;
-            margin-left: 30px;
-            line-height: 28px;
+            height: 11.25rem;   //180px
+            margin-top: 1.25rem;   //20px
+            margin-left: 1.875rem;  //30px
+            line-height: 1.75rem;   //30px
             
             .lineone{
                 
-                padding: 20px 210px;
+                padding: 1.25rem 13.125rem;   //20px 210px
                 color: green;
             }
             .linetwo{
                 
                 font-size: 35px;
                 font-weight: bold;
-                padding: 0px 0 15px 210px;
+                padding: 0 0 0.9375rem 13.125rem;   //0px 0 15px 210px
             }
             .linethree{
-                padding: 0px 0 0px 210px;
+                padding: 0 0 0 13.125rem;   //0px 0 0px 210px
             }
             .linefour{
-                padding: 0px 0 0px 210px;
+                padding: 0 0 0 13.125rem;
             }
             
         }
@@ -33,9 +33,9 @@
             
             display: flex;
             flex-wrap: wrap;
-            width: 1000px;
-            margin-left: 200px;
-            margin-bottom: 30px;
+            width: 62.5rem;  //1000px
+            margin-left: 12.5rem;  //200px
+            margin-bottom: 1.875;   //30px
             justify-content: space-around;
             align-items: center;
             
@@ -46,8 +46,8 @@
             
             display: flex;
             flex-wrap: wrap;
-            width: 1000px;
-            margin-left: 200px;
+            width: 62.5rem;  //1000px
+            margin-left: 12.5rem;  //200px
             justify-content: space-around;
             align-items: center;
             
