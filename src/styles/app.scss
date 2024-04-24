@@ -21,25 +21,47 @@
             justify-content: start; /* 确保子元素从左侧开始排列 */
             position: relative;
             margin-left: 2rem; /* 或根据需要调整，为main-pic提供足够的空间 */
+
+            @media (max-width: 768px) {
+                margin-left: 1 rem;
+            }
             .main-pic{
                 width: 18.75rem; /* 或根据实际图片大小调整 */  //300px
                 height: 3.641rem; /* 或根据实际图片大小调整 */   //58.26px
-                margin-top: 0.875; /* 调整以垂直居中图片 */   //14px
+                margin-top: 0.875rem; /* 调整以垂直居中图片 */   //14px
                 display: flex; /* 如果需要的话 */
+                @media (max-width: 768px) { // 针对平板和手机的设置
+                    width: 13rem; /* 或根据实际图片大小调整 */  //300px
+                    height: 3rem; /* 或根据实际图片大小调整 */   //58.26px
+                    
+                }
             }
+            
+
+            
            
             .user{
-    
+                position:absolute;
+                
                 display: flex;
                 flex-direction: row;
                 align-items: flex-start;
                 gap: 1.125rem; /* 调整间距可能需要 */  //18px
                 //position: absolute;
-                left: 30rem; /* 改为相对于父容器居中 */
+                margin-left: 50rem; /* 改为相对于父容器居中 */
                 //transform: translateX(-50%); /* 新增，确保元素居中 */
                 //width: auto; /* 改为auto以适应内容宽度 */
                 top: calc(50% - 17px/2 - 0.5px);
-                font-size: 18px;
+                font-size: 1.125rem;
+
+                @media (max-width: 768px) { // 针对平板和手机的设置
+                    position: absolute;
+                    gap: 1.2rem;
+                    margin-left: 22rem;
+                    
+                    
+                }
+
                 
                 .home{
                     width: 5.6rem;
@@ -94,7 +116,7 @@
                 .company{
                     /* Frame 4 */
     
-                    width: 5.6rem;
+                    width: 8rem;
                     height: 1.6rem;
                     background-color: #161d15;
                     border-style: hidden;
@@ -122,16 +144,19 @@
             width: 31.25rem;     //500px
             height: 9.375rem;    //150px
             padding: 21.875rem 0 0 15.31rem;   //350px 0 0 245px
+            @media (max-width: 768px) {
+                padding: 30rem 0 0 8rem; 
+            }
 
             p{
-                font-size: 50px;
+                font-size: 3.125rem;
                 color: whitesmoke;
                 font-weight: bold;
                 z-index: 10;
             }
             h3{
                 
-                font-size: 20px;
+                font-size: 1.25rem;
                 color: whitesmoke;
                 font-weight: bold;
             }

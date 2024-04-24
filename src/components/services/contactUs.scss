@@ -4,23 +4,39 @@
     //padding: 30px 0 0 0;
     margin-top: 3.125rem;    //50px
     background-color: whitesmoke;
+
+    @media (max-width: 768px) {
+        height: 80rem;
+    }
     .contactus{
         padding: 1.25rem 0 0 14.375rem;     //20px 0 0 230px
-        color: green;;
+        color: green;
+        
+        @media (max-width: 768px) {
+            padding: 1.25rem 0 0 3rem;
+            font-size: 1.25rem;
+        }
     }
     .contacttitle{
         padding: 2.5rem 0 0 14.375rem;      //40px 0 0 230px
-        font-size: 30px;
+        font-size: 1.875rem;
         font-weight: bold;
         width: 18.75rem;  //300px
-
+        @media (max-width: 768px) {
+            padding: 2.5rem 0 0 3rem;
+        }
     }
     .contacttext{
         width: 18.75rem;
         padding: 1.25rem 0 0 14.375rem;   //20px 0 0 230px;
-        
+        @media (max-width: 768px) {
+            width: 40rem;
+            padding: 1.25rem 0 0 3rem;
+            font-size: 1.5rem;
+        }
     }
     .login{
         padding: 1.25rem 0 0 1.75rem;        //20px 0 0 28px
+        width: 40rem;
     }
 }
